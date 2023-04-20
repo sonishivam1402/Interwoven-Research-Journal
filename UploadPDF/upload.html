@@ -1,0 +1,23 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>uploadfile</title>
+</head>
+<body>
+<form action="/InterwovenRJ/UploadPDF/MysqlConnection.php" method="post" enctype="multipart/form-data">
+ID: <input type="number" name="rollno" required>
+<br><br>
+<label for="myfile">Select a file: </label>
+<input type="file" id="myfile" name="filename">
+<br><br>
+
+<label>Topic Name : </label>
+<input type="text" name="topicname">
+<br><br>
+
+<input type="submit" name="submit" value="upload">
+</form>
+
+<a href="show.php">Show Uploaded</a>
+</body>
+</html>
