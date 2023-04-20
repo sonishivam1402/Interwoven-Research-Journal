@@ -23,7 +23,7 @@ $user_data=check_login($conn);
         <li class="active"><a href="#">Home</a></li>
         <li><a href="../UploadPDF/upload.html">Service</a></li>
         <li><a href="AboutUs.html">About Us</a></li>
-        <li><a href="Admin_Start.html">Log Out</a></li>
+        <li><a href="admin_logout.php">Log Out</a></li>
       </ul>
     </div>
     <div class="title">

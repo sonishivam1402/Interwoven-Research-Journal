@@ -15,7 +15,7 @@ $topicname = $_POST["topicname"];
 
 // $dest = "./OS/" .$_FILES ['filename']['name']; 
 
-echo $file;
+echo $file , "  Uploaded Successfully";
 
 // move_uploaded_file($_FILES['filename']['tmp_name'], $dest);
 // rename($file, $filename.".pdf");
@@ -33,6 +33,6 @@ if ($topicname == "OS"){
 
 # $add = "/UploadPDF/".$filename .".pdf";
 
-$query = mysqli_query($connction, "INSERT INTO testupload VALUES ('$filename','$add','$topicname')");
+$query = mysqli_query($connction, "INSERT INTO pdf_db (id,path,topic_name) VALUES ('$filename','$add','$topicname')");
 
 ?>
