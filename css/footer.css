@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap'); 
+* { 
+    font-variant-numeric:  lining-nums;
+    box-sizing: border-box;
+} 
+
+footer { 
+    display: block;
+} 
+
+.BgBlack { 
+    background-color: #000;
+} 
+
+footer { 
+    margin:     0; 
+    font-family:   'Oswald', sans-serif; 
+    font-size:   16px; 
+    font-weight:     500; 
+    line-height:     1.5; 
+    text-align:     left; 
+    background-color:  #fff; 
+    color:     #000; 
+    letter-spacing:     1px;
+    overflow-x:  hidden;
+    clear:  both; 
+    background:  #ffffff;
+    animation: fadeInAnimation ease 3s animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+
+html { 
+    scroll-behavior:   smooth;
+    color:  #fff;
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+.lrP100 { 
+    padding: 0px 100px;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+:-webkit-scrollbar { 
+    width: 10px;
+} 
+
+:-webkit-scrollbar-thumb { 
+    background: #888; 
+    border-radius: 10px;
+} 
+
+:-webkit-scrollbar-thumb:hover { 
+    background: #555;
+} 
+
+:-webkit-scrollbar-track { 
+    background: #f1f1f1;
+} 
+
+.topP50 { 
+    padding-top: 50px;
+} 
+
+.bottomP50 { 
+    padding-bottom: 50px;
+} 
+
+.row { 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    width: 100%;
+} 
+
+.col-lg-3,.col-md-6 { 
+    position: relative; 
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .col-md-6 { 
+    -ms-flex: 0 0 50%; 
+    flex: 0 0 50%; 
+    max-width: 50%;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .col-lg-3 { 
+    -ms-flex: 0 0 25%; 
+    flex: 0 0 25%; 
+    max-width: 25%;
+  } 
+}     
+
+.mb-4 { 
+    margin-bottom: 1.5rem!important;
+} 
+
+@media (min-width: 992px){ 
+  .mb-lg-0 { 
+    margin-bottom: 0!important;
+  } 
+}     
+
+p { 
+    margin-bottom:  1rem;
+    margin-top: 0; 
+} 
+
+.footerHeader { 
+    color: #F1E328 !important;
+} 
+
+.text-uppercase { 
+    text-transform: uppercase!important;
+} 
+
+.font-weight-bold { 
+    font-weight: 700!important;
+} 
+
+@media all{ 
+  ul { 
+    box-sizing: border-box;
+  } 
+}     
+
+ul { 
+    list-style-type:  disc !important;
+    padding-left:   0px !important;
+    margin-top:  0; 
+    margin-bottom:  1rem;
+} 
+
+.list-unstyled { 
+    padding-left: 0; 
+    list-style: none;
+} 
+
+.mb-0 { 
+    margin-bottom: 0!important;
+} 
+
+.list-unstyled { 
+    list-style: none !important;
+} 
+
+.footerfontWhite { 
+    color:  white !important; 
+    font-size:  13px !important; 
+    letter-spacing: 1px;
+} 
+
+.topP35 { 
+    padding-top: 35px;
+} 
+
+a { 
+    text-decoration:  none; 
+    color: #007bff; 
+    background-color: transparent;
+} 
+
+a:hover { 
+    color: #0056b3; 
+    text-decoration: underline;
+} 
+
+.mb-2 { 
+    margin-bottom: .5rem!important;
+} 
+
+.list-unstyled li  { 
+    list-style: none !important;
+} 
+
+.FontWhite { 
+    color: #ffffff !important;
+} 
+
+.list-inline-item { 
+    display: inline-block;
+} 
+
+.list-inline-item:not(:last-child) { 
+    margin-right: .5rem;
+} 
+
+.topP15 { 
+    padding-top: 15px;
+} 
+
+ul > li > a  { 
+    text-decoration: none !important; 
+    color: #000 !important;
+} 
+
+img { 
+    max-width:  100%;
+    vertical-align: middle; 
+    border-style: none;
+} 
+
+.width30px { 
+    width: 30px;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-Fyxjd.style-Fyxjd {  
+   margin-bottom:10px !important;  
+}  
+#style-FkJnS.style-FkJnS {  
+   margin-bottom:10px !important;  
+}  
+#style-3xtKi.style-3xtKi {  
+   max-width:20px !important;  
+}  
+#style-op8pi.style-op8pi {  
+   border:0;  
+}  
